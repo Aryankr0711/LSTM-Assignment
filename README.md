@@ -28,10 +28,10 @@ This project implements an **LSTM (Long Short-Term Memory) neural network** trai
 
 | **Name** | **Roll No** | **Batch** |
 |---|---|---|
-| Siddhant Sahu | 202301070159 | T1/T3/T4 |
-| Aryan Kumar | 202301070164 | T1/T3/T4 |
-| Amir Furquani | 202301070165 | T1/T3/T4 |
-| Aryan Kumar | 202301070167 | T1/T3/T4 |
+| Siddhant Sahu | 202301070159 | T4 |
+| Aryan Kumar | 202301070164 | T1 |
+| Amir Furquani | 202301070165 | T1 |
+| Raviraj Sonar | 202301070167 | T4 |
 
 ---
 
@@ -105,14 +105,13 @@ This project implements an **LSTM (Long Short-Term Memory) neural network** trai
 
 ### Loss & Accuracy Graph
 
-See `output.png` for training visualization:
+![Training Loss & Accuracy](output.png?raw=true "Training Loss & Accuracy over 100 Epochs")
 
-```
-Training Loss & Accuracy (100 Epochs)
-[Red Line - Loss decreases from 6.23 to 0.48]
-[Green Line - Accuracy increases from 2.3% to 85.4%]
-[Both curves show smooth convergence]
-```
+**Graph Details:**
+- **Red Line (Training Loss):** Decreases from 6.23 to 0.4782
+- **Green Line (Training Accuracy):** Increases from 2.3% to 85.42%
+- **Epochs:** 100 total training epochs
+- **Convergence:** Both curves show smooth convergence, indicating optimal model performance
 
 ---
 
